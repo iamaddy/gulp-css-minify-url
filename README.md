@@ -8,7 +8,7 @@ a plugin make css links to minify format link
 First, install gulp-css-minify-url as a development dependency:
 
 add it to your gulpfile.js:
-`
+```
 var minifyUrl = require('gulp-css-minify-url');
 
 gulp.task('templates', function(){
@@ -16,9 +16,9 @@ gulp.task('templates', function(){
     .pipe(minifyUrl())
     .pipe(gulp.dest('build/'));
 });
-`
+```
 do a simple thing like this:
-`
+```
 <html>
 <head>
 		<!-- htmlbuild:css
@@ -33,9 +33,9 @@ do a simple thing like this:
 ...
 </body>
 </html>
-`
+```
 after minifyUrl,the result like this:
-`
+```
 <html>
 <head>
 		<!-- htmlbuild:css
@@ -51,4 +51,4 @@ after minifyUrl,the result like this:
 ...
 </body>
 </html>
-`
+```
