@@ -1,0 +1,10 @@
+{
+	"name": "gulp-css-minify-url",
+	"version": "1.0.0",
+	"main": "./index.js",
+	"private": true,
+	"devDependencies": {
+	    "gulp-util": "~2.0.0",
+	    "through2": "~0.4.1"
+	}
+}
